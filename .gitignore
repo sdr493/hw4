@@ -1,0 +1,28 @@
+# Secrets: never commit the real .env
+.env
+.env.*
+!.env.example
+
+# Environments and dependencies
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Local-only data pack: databases and product images
+data/
+*.db
+*.sqlite
+
+# Build output
+frontend/dist/
+
+# Database viewers contain real account emails and promo codes
+output/database_viewer.html
+output/promotions_viewer.html
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

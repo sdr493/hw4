@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Customs</title>
+  </head>
+  <body>
+    <!-- Cartoon filter for the Handsome Dan photo: flattens colors into a few bands. -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+      <filter id="cartoon">
+        <feComponentTransfer>
+          <feFuncR type="discrete" tableValues="0 .14 .28 .43 .57 .71 .86 1" />
+          <feFuncG type="discrete" tableValues="0 .14 .28 .43 .57 .71 .86 1" />
+          <feFuncB type="discrete" tableValues="0 .14 .28 .43 .57 .71 .86 1" />
+        </feComponentTransfer>
+      </filter>
+    </svg>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

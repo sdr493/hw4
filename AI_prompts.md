@@ -383,11 +383,3 @@ how come i still see those two in the hw4 folder
 ```
 
 **Why I needed it:** To understand why campus_customs.db and the product images are still in my hw4 folder.
-
-#### Follow-Up 4
-
-```text
-push it
-```
-
-**Why I needed it:** To push the project to the public GitHub repo.

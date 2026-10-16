@@ -43,11 +43,10 @@ The **agent** is the four files under `backend/`: `prompts/prompt.md`, `agent.py
 ```text
 data/
 ├── campus_customs.db        # product catalogue, inventory, users, chat history
-├── products/                # product images referenced by the catalogue
-└── promotions.db            # created automatically on first run (promo codes)
+└── products/                # product images referenced by the catalogue
 ```
 
-`.env`, the databases and the product images are **never committed** (see `.gitignore`).
+`.env`, `campus_customs.db` and the product images are **never committed** (see `.gitignore`). The promo code database, `data/promotions.db`, **is** in the repo (it's also created automatically if missing).
 
 ## How to run
 

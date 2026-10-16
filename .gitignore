@@ -9,10 +9,13 @@ node_modules/
 __pycache__/
 *.pyc
 
-# Local-only data pack: databases and product images
-data/
+# Local-only data pack: the store database and product images
+data/campus_customs.db
+data/products/
 *.db
 *.sqlite
+# ...but keep the promo code database in the repo
+!data/promotions.db
 
 # Build output
 frontend/dist/

@@ -358,10 +358,20 @@ onto problem 13 - we are going to make our code go into a folder titled hw4.  af
 
 (Attached: screenshot of the Problem 13 instructions and expected file layout.)
 
-### Follow-Up Prompt
+### Follow-Up Prompts
 
-No follow-up prompt was used.
+#### Follow-Up 1
 
-### Why I Needed a Follow-Up Prompt
+```text
+it says to not put the campus_customs.db, or product images in the data folder in the githuib repo .  follow up because llm didnt listen
+```
 
-No follow-up prompt was needed.
+**Why I needed it:** Follow up because the LLM didn't listen.
+
+#### Follow-Up 2
+
+```text
+need the promo db tho
+```
+
+**Why I needed it:** The promo code database needs to be in the repo.
